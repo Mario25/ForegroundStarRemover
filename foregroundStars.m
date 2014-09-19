@@ -257,7 +257,7 @@ if smoothImage>0
     for i=1:sizeX
         for j=1:sizeY
             if (star(i,j)>0)
-                image(i,j)=(0.9*image(i,j)+0.1*newRand(i,j));
+                image(i,j)=(0.9*image(i,j)+0.07*newRand(i,j));
             end
         end
     end
